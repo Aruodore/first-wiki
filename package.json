@@ -1,0 +1,10 @@
+{
+  "name": "tiddlywiki-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tiddlywiki --listen host=0.0.0.0 port=$PORT"
+  },
+  "dependencies": {
+    "tiddlywiki": "^5.3.3"
+  }
+}
